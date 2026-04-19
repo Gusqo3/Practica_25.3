@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+.naveg ul {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  gap: 33%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    background-color: black;
+}
+
+body {
+    padding-top: 40px; /* Ajusta según la altura del menú */
+    display: flex;
+    flex-direction: column;
+    min-height: 94.5vh; /* Alto mínimo igual a la ventana */
+    margin: 0;
+    background-color: rgb(243, 224, 200);
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+main {
+  flex: 1; /* El contenido principal crece para llenar el espacio */
+}
+
+#nom-proy {
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: darkblue;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+#footer-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.pie ul{
+  color: white;
+}
+
+.navfoot {
+  color: white;
+  text-decoration: none;
+}
